@@ -1,0 +1,95 @@
+.ticket_card {
+  width: 600px;
+  height: 180px;
+  background-color: var(--block-color);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.company {
+  width: 35%;
+  border-right: 1px solid var(--border-gray);
+}
+
+.wrap {
+  padding: 20px;
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+}
+
+.details {
+  width: 65%;
+  padding: 20px;
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.timing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.time {
+  font-size: 36px;
+  line-height: 100%;
+}
+
+.stops_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--border-gray);
+}
+
+.aeroline_wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.aeroline {
+  width: 100px;
+  background-color: var(--border-gray);
+  height: 1px;
+}
+
+.locations {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.location_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.location_wrap_reverse {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.location_date {
+  color: var(--border-gray);
+}

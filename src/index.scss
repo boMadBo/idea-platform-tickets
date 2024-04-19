@@ -1,0 +1,22 @@
+@import '~normalize.css';
+
+
+html {
+  --background-color: #d0dfe2;
+  --default-color: #464646;
+  --title-color: rgb(37, 100, 225);
+  --block-color: #e9edef;
+  --border-gray: #b5b5b6;
+  --background-hover: #ace5f1;
+  --orange-button: #e75816;
+  --orange-button-hover: #e8733d;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--default-color);
+  
+}

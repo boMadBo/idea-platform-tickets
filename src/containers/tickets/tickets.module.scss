@@ -1,0 +1,16 @@
+.tickets {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px 0px;
+}
+
+.cards_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  min-width: 600px;
+}
